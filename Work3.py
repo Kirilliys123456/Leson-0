@@ -1,0 +1,10 @@
+immutable_var = (1, 2, 3, 'r', 'a', 'b')
+print( immutable_var)
+mutable_list = [3, 2, 1, 'a', 'b', 'c']
+print(mutable_list)
+mutable_list. append('Modified')
+print(mutable_list)
+mutable_list. remove(3)
+print(mutable_list)
+mutable_list.extend('str')
+print(mutable_list)
